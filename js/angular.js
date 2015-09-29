@@ -30,7 +30,7 @@ app.controller('myController', function($scope) {
 
   $scope.giveUp = function(){
     $scope.showGame =! $scope.showGame;
-    $scope.quitMessage = "You're a quiter!";
+    $scope.quitMessage = "You're a quiter!!";
   }
 
 });
